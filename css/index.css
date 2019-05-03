@@ -233,13 +233,21 @@ section article:nth-child(even) {
 
 button {
   border-radius: 15px;
+  text-align: center;
   border: 2px solid black;
   padding: 3%; 
   width: 150px;
   height: 50px;
   background-color: white;
   margin: 3% 3% 3% 0;
+  box-shadow: 0 9px #999;
 }
+
+button:hover {
+    background-color: #462a92;
+}
+
+
 
 .end-content {
     margin: 2%;
@@ -264,4 +272,9 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 
